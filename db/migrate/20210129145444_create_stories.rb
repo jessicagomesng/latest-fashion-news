@@ -5,6 +5,7 @@ class CreateStories < ActiveRecord::Migration[6.0]
       t.string :author
       t.date :date
       t.string :description
+      t.bigint :publication_id
 
       t.timestamps
     end
